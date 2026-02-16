@@ -2,10 +2,11 @@
   <p><a href="https://arxiv.org/abs/2503.02972">LingOly-TOO Benchmark</a>: Disentangling Reasoning from Knowledge</p>
 </h2>
 
-LingOLY-TOO (L2) is a reasoning benchmark for Large Language Models. It was carefully designed to reduce the effect of memorisation in model performance estimates.
+LingOly-TOO  is a reasoning benchmark for Large Language Models. It was carefully designed to reduce the effect of memorisation in model performance estimates.
 
 ## Links
- - 📊 [Website and Leaderboard](https://huggingface.co/spaces/jkhouja/lingoly-too)
+ - 📊 [Leaderboard](https://huggingface.co/spaces/jkhouja/lingoly-too)
+ - 🌍 [Website](https://oxrml.com/lingoly-too/)
  - 📎 [Paper](https://arxiv.org/abs/2503.02972)
 
 ## Quick Start
@@ -96,13 +97,12 @@ Please submit a new issue for questions or reporting a bug.
 If you use this work, please cite:
 
 ```bibtex
-@misc{khouja2025lingolytoobenchmark,
-      title={LINGOLY-TOO Benchmark: Disentangling Reasoning from Knowledge},
-      author={Jude Khouja and Karolina Korgul and Simi Hellsten and Lingyi Yang and Vlad Neacsu and Harry Mayne and Ryan Kearns and Andrew Bean and Adam Mahdi},
-      year={2025},
-      eprint={2503.02972},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2503.02972},
+@inproceedings{
+khouja2026lingolytoo,
+title={{LingOly}-{TOO}: Disentangling Reasoning from Knowledge with Templatised Orthographic Obfuscation},
+author={Jude Khouja and Lingyi Yang and Simeon Hellsten and Karolina Korgul and Vlad A. Neacșu and Harry Mayne and Ryan Othniel Kearns and Andrew M. Bean and Adam Mahdi},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://arxiv.org/abs/2503.02972}
 }
 ```
